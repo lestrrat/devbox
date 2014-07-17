@@ -13,7 +13,7 @@ RUN apt-get install -y build-essential
 RUN apt-get install -y tcpdump
 
 # Install go
-RUN curl https://go.googlecode.com/files/go1.3.linux-amd64.tar.gz | tar -C /usr/local -zx
+RUN curl -L http://golang.org/dl/go1.3.linux-amd64.tar.gz | tar -C /usr/local -zx
 ENV GOROOT /usr/local/go
 ENV PATH /usr/local/go/bin:$PATH
 
