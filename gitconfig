@@ -1,0 +1,10 @@
+[push]
+	default = simple
+[user]
+	name = Daisuke Maki
+	email = lestrrat+github@gmail.com
+[core]
+	editor = /usr/local/bin/vim
+[ghq]
+	root = ~/dev/src
+
